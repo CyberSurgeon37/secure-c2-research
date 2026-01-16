@@ -1,9 +1,15 @@
-# TITLE:      AES-GCM Encrypted C2 Agent
+# AES-GCM Encrypted C2 Agent
 PURPOSE:    Adversary Emulation
-LEGAL DISCLAIMER: 
-#1. NO LIABILITY: In no event shall the author/developer be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
-#2. AUTHORIZED USE ONLY: This tool is intended solely for use on systems you own or have explicit written permission to test on. Unauthorized access to computer systems is illegal and punishable by law (e.g., under the Computer Fraud and Abuse Act - 18 U.S.C. § 1030 in the United States).
-#3. RESPONSIBILITY: The end user assumes all responsibility for complying with applicable local, state, and federal laws. The author accepts no liability for misuse of this code.
+
+## ⚠️ Legal Disclaimer
+
+**1. NO LIABILITY:** In no event shall the author/developer be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+**2. AUTHORIZED USE ONLY:** This tool is intended solely for use on systems you own or have explicit written permission to test on. Unauthorized access to computer systems is illegal and punishable by law (e.g., under the **Computer Fraud and Abuse Act - 18 U.S.C. § 1030** in the United States).
+
+**3. RESPONSIBILITY:** The end user assumes all responsibility for complying with applicable local, state, and federal laws. The author accepts no liability for misuse of this code.
+
+---
 
 Project version: v1.0
 
@@ -16,12 +22,12 @@ Features:
 - Encrypted transport for confidentiality and cryptographic integrity
 - Tamper evidence (bit-flipping and command injection mitigation)
 
-Prerequisites
+Prerequisites:
 - Developed utilizing Python 3.14.2
 - PyCryptoDome Library
 
 
-Instructions
+Instructions:
 
 1. Start listener with the following command: 
 python3 src/c2_implant.py -l
@@ -29,7 +35,6 @@ python3 src/c2_implant.py -l
 3. Enter victim IP address and encryption key generated
 python3 src/c2_implant.py -c <TARGET_IP> -k <PASTE_KEY_HERE>
 4. Execute commands (e.g., ipconfig, whoami)
-
 
 Common Issues:
 1. Make sure you installed pycryptodome
