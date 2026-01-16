@@ -56,12 +56,3 @@ sequenceDiagram
     Victim-->>Attacker: Encrypted Output (Nonce + Ciphertext + Tag)
     
     Note left of Attacker: Decrypt & Display
-Project structure: 
-secure-c2-research/
-├── src/
-│   └── c2_implant.py        # Main AES-GCM implant source code
-├── prototypes/
-│   ├── basic_bind_shell.py  # Unencrypted bind shell
-│   └── ecb_implant.py       # AES-ECB implementation
-├── requirements.txt         # Project dependencies
-└── README.md                # Documentation
