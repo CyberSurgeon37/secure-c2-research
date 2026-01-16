@@ -15,7 +15,7 @@
 
 Project version: v1.0
 
-Overview & Background: The purpose of this project was to demonstrate the development of a Python C2 implant with cleartext, then upgraded to AES-256 (ECB Mode), and finally AES-GCM. The project is intended to demonstrate a multi-threaded TCP Bind Shell which allows for code execution. Following the course Python 201 for Hackers on TCM Security Academy, and learning more about the Windows API and Pycryptodome during the process, Project 5 involved the development of an encrypted bind shell. The developer wanted to iterate on the protype presented in the class to advance it to involve AES-256-GCM to provide greater cryptographic integrity. This prototype provides greater resilience against replay attacks.   
+Overview & Background: The purpose of this project was to demonstrate the development of a Python C2 implant with cleartext, then upgraded to AES-256 (ECB Mode), and finally AES-GCM. The project is intended to demonstrate a multi-threaded TCP Bind Shell which allows for code execution. Following the course Python 201 for Hackers on TCM Security Academy, and learning more about the Windows API and Pycryptodome during the process, Project 5 involved the development of an encrypted bind shell. The developer wanted to iterate on the protype presented in the class to advance it to involve AES-GCM to provide greater cryptographic integrity. This prototype provides greater resilience against replay attacks.   
 
 Features:
 - Multi-threaded architecture
