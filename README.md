@@ -1,6 +1,6 @@
 # TITLE:      AES-GCM Encrypted C2 Agent
 PURPOSE:    Adversary Emulation
-#LEGAL DISCLAIMER: 
+LEGAL DISCLAIMER: 
 #1. NO LIABILITY: In no event shall the author/developer be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 #2. AUTHORIZED USE ONLY: This tool is intended solely for use on systems you own or have explicit written permission to test on. Unauthorized access to computer systems is illegal and punishable by law (e.g., under the Computer Fraud and Abuse Act - 18 U.S.C. § 1030 in the United States).
 #3. RESPONSIBILITY: The end user assumes all responsibility for complying with applicable local, state, and federal laws. The author accepts no liability for misuse of this code.
