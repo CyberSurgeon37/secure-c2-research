@@ -1,8 +1,3 @@
-# secure-c2-research
-Primitive Command &amp; Control (C2) agent utilizing AES-GCM
-AES-GCM TCP Bind Shell
-
-# ------------------------------------------------------------------
 # TITLE:      AES-GCM Encrypted C2 Agent
 # PURPOSE:    Adversary Emulation
 # LEGAL DISCLAIMER: 
@@ -21,7 +16,6 @@ AES-GCM TCP Bind Shell
 #    applicable local, state, and federal laws. The author accepts no liability for 
 #    misuse of this code.
 
-# ------------------------------------------------------------------
 
 Project version: v1.0
 
