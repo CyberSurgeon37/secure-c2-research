@@ -56,7 +56,6 @@ sequenceDiagram
     Victim-->>Attacker: Encrypted Output (Nonce + Ciphertext + Tag)
     
     Note left of Attacker: Decrypt & Display
-
 Project structure: 
 secure-c2-research/
 ├── src/
